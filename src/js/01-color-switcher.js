@@ -5,7 +5,7 @@ const buttonStop = document.querySelector('button[data-stop]');
 
 let timer;
 buttonStart.addEventListener('click', () => {
-  buttonStart.setAttribute('disabled', true);  
+  buttonStart.setAttribute('disabled', true);
   timer = setInterval(setColor, 1000);
 });
 
