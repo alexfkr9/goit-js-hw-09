@@ -16,3 +16,39 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+/* timer */
+
+.timer-task {
+  margin-top: 100px;
+  text-align: center;  
+}
+
+.timer-task input { border-radius: 8px; }
+
+.timer-task button {
+  border-radius: 8px;    
+  background-color: rgba(7, 244, 43, 0.361);
+}
+
+.timer-task button:disabled {
+  background-color: rgba(244, 58, 7, 0.459);
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  color: rgb(10, 109, 127);
+}
+
+.timer .value { font-size: 3rem; }
+
+.timer .label { text-transform: uppercase; }
+
+.field {
+  margin: 20px;
+  text-align: center;
+}
+
+.field span { display: block; }
