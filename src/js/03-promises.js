@@ -16,7 +16,7 @@ function getPromise(e) {
   const step = Number(refs.step.value);
 
   for (let i = 1; i <= refs.amount.value; i++) {
-    delay += step;
+    if (i!==1) {delay += step};
 
     createPromise(i, delay)
       .then(({ position, delay }) => {
